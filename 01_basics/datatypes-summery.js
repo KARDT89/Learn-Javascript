@@ -32,4 +32,29 @@ const myfunction = function(){
     console.log("Hello World");
 }
 
-console.log(typeof myfunction);
+// console.log(typeof myfunction);
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+// https://imgur.com/a/f5QFiFT
+
+let myYoutubeName = "Kardt89"
+
+let anotherName = myYoutubeName
+anotherName = "chaiaurcode"
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "dt89@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);

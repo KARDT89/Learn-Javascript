@@ -1,4 +1,4 @@
-// Primitive
+//************************** Primitive **************************
 
 // 7 types : String, Number, Boolean, null, undefined, Symbol, BigInt
 
@@ -17,7 +17,7 @@ const bigNumber = 56465165465456123178818918n  // put n at the end of number to 
 
 
 
-// Reference (Non Primitive)
+//************************** Reference (Non Primitive) **************************
 
 // Array, Objects, Functions
 
